@@ -78,8 +78,8 @@ const AppContent = () => {
                 <ShieldCheck size={24} />
              </div>
              <div className="flex flex-col">
-                <span className="text-lg font-bold text-white leading-tight">السامي</span>
-                <span className="text-[10px] font-medium text-[#9C824A] uppercase tracking-[2px]">مكتب السامي</span>
+                <span className="text-lg font-bold text-white leading-tight">الخريف</span>
+                <span className="text-[10px] font-medium text-[#9C824A] uppercase tracking-[2px]">محامون ومستشارون</span>
              </div>
            </div>
         </div>
@@ -104,13 +104,13 @@ const AppContent = () => {
             <SidebarItem icon={Settings} text="إعدادات النظام" path="/settings" active={isActive('/settings')} />
           </div>
         </nav>
-
+Alkhorayef
         <div className="p-5 border-t border-gray-800/30 bg-[#0d0d0d]">
           <button className="flex items-center gap-3 w-full p-2 rounded-lg hover:bg-white/5 transition-all">
             <div className="w-10 h-10 rounded bg-[#9C824A]/10 border border-[#9C824A]/20 flex items-center justify-center text-[#9C824A] font-bold text-sm">أ</div>
             <div className="flex-1 min-w-0 text-right">
               <p className="text-sm font-bold text-gray-200 truncate">{userRole === 'admin' ? 'المدير العام' : 'المحامي'}</p>
-              <p className="text-[10px] text-gray-500 truncate uppercase">alsami Legal</p>
+              <p className="text-[10px] text-gray-500 truncate uppercase">Alkhorayef Legal</p>
             </div>
             <ChevronDown size={14} className="text-gray-500" />
           </button>
